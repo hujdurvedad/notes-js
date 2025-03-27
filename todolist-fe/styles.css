@@ -1,0 +1,95 @@
+* {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 19, 19);
+}
+
+.input-div {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+#input {
+    min-width: 350px;
+    max-width: 350px;
+    height: 35px;
+    min-height: 35px;
+    max-height: 400px;
+    background: transparent;
+    border: none;
+    border: 2px white solid;
+    border-radius: 5px;
+    color: white;
+    padding: 7px;
+    font-size: 16px;
+    outline: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#create-todo {
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    background-color: rgb(0, 180, 0);
+    border: rgb(0, 180, 0) solid 2px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+#create-todo:hover {
+    opacity: 0.85;
+}
+
+.note {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 19px;
+    margin-top: 25px;
+    padding-bottom: 3px;
+    border-bottom: white solid 2px;
+}
+
+#delete-todo {
+    color: red;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+#delete-todo:hover {
+    opacity: 0.95;
+}

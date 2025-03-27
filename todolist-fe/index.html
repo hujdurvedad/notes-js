@@ -4,11 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <button id="createTodo">Create Todo</button>
-    <input type="text" placeholder="Make a note" id="input">
-    <button id="deleteTodo">Delete Todo</button>
+    <div class="container">
+        <h1 class="title">ToDo Notes</h1>
+        <div class="input-div">
+            <textarea placeholder="Make a note" id="input"></textarea>
+            <button id="create-todo">Create note</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
